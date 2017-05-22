@@ -1,0 +1,11 @@
+pytest==3.0.6
+pytest-cov==2.4.0
+pytest-spec==1.1.0
+requests==2.13.0
+pyyaml==3.12
+mock==2.0.0
+appdirs==1.4.0
+packaging==16.8
+boto3==1.4.4
+moto==0.4.31
+psycopg2==2.7.1
