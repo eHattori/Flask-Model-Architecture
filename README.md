@@ -12,10 +12,10 @@ The following dependencies are automaticatly installed :
 
 ### Installation
 
-1 - Clone the repository in your machine
-2 - Run `mkvirtualenv flask-model-architecture` to create a new virtualenv
-3 - Switch between env with `workon flask-model-architecture`
-4 - Run `make setup ` to install
+1. Clone the repository in your machine.
+2. Run `mkvirtualenv flask-model-architecture` to create a new virtualenv.
+3. Switch between env with `workon flask-model-architecture`.
+4. Run `make setup ` to install.
 
 # Documentation
 
