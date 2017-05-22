@@ -2,25 +2,25 @@
 
 This is a Model(draft) for create a API REST in Python 3.5
 
-## 1-Installation
+## Getting Started
 
-Create a new virtualenv
+### Dependencies
 
-```
-mkvirtualenv flask-model-architecture
-```
-to exit your new virtualenv, use `deactivate`.
+The following dependencies are automaticatly installed :
 
-Switch between env with `workon`
+* Flask
 
-To load or switch between virtualenvs, use the workon command:
+### Installation
 
-```
-workon flask-model-architecture
-```
+1 - Clone the repository in your machine
+2 - Run `mkvirtualenv flask-model-architecture` to create a new virtualenv
+3 - Switch between env with `workon flask-model-architecture`
+4 - Run `make setup ` to install
 
-Install the dependencies of project
+# Documentation
 
-```
-make setup ## pass the enviroment as APP_ENV={ENV}
-```
+https://org/
+
+# LICENSE
+
+Code released under the MIT License.
