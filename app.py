@@ -1,5 +1,5 @@
 from flask import Flask
-from routes.validate_upload import validate_upload
+from routes import *
 
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ app = Flask(__name__)
 def documentation():
     return 'Documentation of API'
 
-app.register_blueprint(validate_upload)
+app.register_blueprint(routes)
 
 
 if __name__ == '__main__':

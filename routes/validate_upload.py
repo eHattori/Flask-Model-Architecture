@@ -1,8 +1,6 @@
-from flask import Blueprint
-
-validate_upload = Blueprint('validate_upload', __name__)
+from . import routes
 
 
-@validate_upload.route('/validateUpload/hello')
+@routes.route('/validateUpload/hello')
 def hello():
     return 'Hello Validate Order'
